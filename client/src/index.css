@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'DM Sans', sans-serif;
+  color: #344136;
+  background: #f6f7f2;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --ink: #202d25;
+  --green: #637d50;
+  --lime: #c2df8d;
+}
+
+* { box-sizing: border-box; }
+body { min-width: 320px; min-height: 100vh; margin: 0; }
+button,input { font: inherit; }
+button:focus-visible,a:focus-visible,input:focus-visible { outline: 2px solid #789567; outline-offset: 3px; }
+::selection { color: #203326; background: #d4e7bd; }
